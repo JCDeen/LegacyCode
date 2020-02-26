@@ -1,0 +1,93 @@
+ BlackRack Status (as of October 18, 1991)                         Chris Deen
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ BlackRack currently consists of 2 phases:
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     Phase I  - General Computer Diagnostic Program
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+        Tests memory, disk drives, BIOS, etc., with
+        diagnostics report via comm port to MacIntosh .
+
+        16 out of 18 diagnostic modules completed as of Nov 15, 1991.
+
+        ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+        Testing at TOP :
+        ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+        October 31, 1991:
+        ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+           1) Async communications to MacIntosh partially successful.
+           2) All diagnostic modules successful.
+
+           CONCLUSIONS: 
+               1) Reduce size of error/diagnostic messages to Mac.
+               2) Implement an error/diagnostic message lookup table rather
+                  than xmitting verbose messages between the 2 computers.
+               3) Present communications between 2 computers utilizes NO
+                  handshaking/protocall - therefore message length & speed is
+                  critical.
+
+        November 13, 1991:
+        ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+           1) Async communications to MacIntosh COMPLETELY successful.
+           2) Error/diagnostic message lookup table format approved by
+              Blackrack personnel.
+
+           CONCLUSIONS: 
+               1) Due to the Computer Diagnostic Program's modular nature,
+                  it can be delivered in a useful form with only a subset of
+                  intended diagnostic tests completed. (Currently 16 of 18 are
+                  completed.)
+               2) Async communications to MacIntosh COMPLETELY successful. This
+                  was 100% verifiable via a newly implemented Comm Port
+                  Tracking file, in which all commands sent to Comm port were
+                  recorded. This was then compared with the Mac's recorded
+                  input.
+               3) Async communications satisfactory for CDP, but will need to
+                  involve handshaking for Blackrack Phase II.
+
+                  Async knowledge gained on this code will be 100% applicable
+                  to Phase II.
+                  
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     Phase II - RS232 Communications Diagnostic Program
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+        2 PC's communicate across comm port, with diagnostics
+        reported via a 2nd/3rd comm port to MacIntosh.
+
+        START: Upon completion of Phase I.
+
+        Estimated completion 4 weeks from start date.
+
+    Computer Diagnostic Program "Milestones" (as of November 15, 1991)
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+DIAGNOSTIC / FUNCTION ³ CODING ³TESTED/INTEGRATED³ COMPLETION EXPECTED
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Program Design        ³  100%  ³    - N/A -      ³ DONE ---------- Deen
+User Interface        ³   99%  ³ 100% / 100%     ³ DONE ---------- Deen
+Async Setup Routines  ³  100%  ³ 100% / 100%     ³ DONE ---------- Deen      
+Async I/O Tracking    ³  100%  ³ 100% / 100%     ³ DONE ---------- Deen     
+Error Report Mechanics³  100%  ³ 100% / 100%     ³ DONE ---------- Deen
+Log   Report Mechanics³  100%  ³ 100% / 100%     ³ DONE ---------- Deen
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Video Test            ³  100%  ³  100% / 100%    ³ DONE ---------- Pereira
+Read Keyboard Flags   ³  100%  ³  100% / 100%    ³ DONE ---------- Deen
+Comm Port 1 Status    ³  100%  ³  100% / 100%    ³ DONE ---------- Deen
+Comm Port 2 Status    ³  100%  ³  100% / 100%    ³ DONE ---------- Deen
+Line Printer Test     ³  100%  ³  100% / 100%    ³ DONE ---------- Pereira
+Equipment List        ³  100%  ³  100% / 100%    ³ DONE ---------- Deen
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+8253 Timer Baseline   ³   40%  ³   40% /   0%    ³ Assigned ------ Deen
+Interrupt Vector Maps ³  100%  ³  100% / 100%    ³ DONE ---------- Deen
+DOS Environment Space ³  100%  ³  100% / 100%    ³ DONE ---------- Pereira
+COMMAND.COM Integrity ³  100%  ³  100% / 100%    ³ DONE ---------- Deen
+General Memory Check  ³    0%  ³    0% /   0%    ³ Assigned ------ Pereira
+Heap Check            ³  100%  ³  100% / 100%    ³ DONE ---------- Pereira
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Floppy Drive A:       ³  100%  ³  100% / 100%    ³ DONE ---------- Pereira
+Floppy Drive B:       ³  100%  ³  100% / 100%    ³ DONE ---------- Pereira
+Hard Drive C:         ³  100%  ³  100% / 100%    ³ DONE ---------- Pereira
+Drives A: & B:        ³  100%  ³  100% / 100%    ³ DONE ---------- Pereira
+Drives A: & C:        ³  100%  ³  100% / 100%    ³ DONE ---------- Pereira
+Drives B: & C:        ³  100%  ³  100% / 100%    ³ DONE ---------- Pereira
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+

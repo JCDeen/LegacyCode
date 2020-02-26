@@ -1,0 +1,25 @@
+cdp.err 
+cdp.c
+cdp.c(131) : warning C4071: 'function through ptr' : no function prototype given
+cdp.c(141) : warning C4051: data conversion
+cdp.c(314) : warning C4071: 'function through ptr' : no function prototype given
+cdp.c(452) : warning C4051: data conversion
+cdp.c(455) : warning C4051: data conversion
+cdp00.c
+cdp00.c(112) : warning C4016: 'sio_put' : no function return type, using 'int' as default
+cdp00.c(112) : warning C4071: 'sio_put' : no function prototype given
+cdp00.c(205) : warning C4035: 'comm_port_menu' : no return value
+cdp00.c(225) : warning C4051: data conversion
+cdp01.c
+cdp01.c(49) : warning C4100: 'dummy' : unreferenced formal parameter
+cdp01.c(82) : warning C4100: 'dummy' : unreferenced formal parameter
+cdp01.c(193) : warning C4100: 'dummy' : unreferenced formal parameter
+cdp01.c(239) : warning C4100: 'dummy' : unreferenced formal parameter
+cdp01.c(320) : warning C4100: 'dummy' : unreferenced formal parameter
+cdp01.c(373) : warning C4051: data conversion
+cdp01.c(389) : warning C4100: 'dummy' : unreferenced formal parameter
+cdp02.c
+cdp02.c(566) : warning C4100: 'x' : unreferenced formal parameter
+cdp02.c(603) : warning C4100: 'x' : unreferenced formal parameter
+cdp02.c(696) : warning C4100: 'x' : unreferenced formal parameter
+cdp02.c(741) : warning C4100: 'x' : unreferenced formal parameter
