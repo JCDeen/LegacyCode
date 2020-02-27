@@ -1,6 +1,5 @@
 > #### The quarterly results look great!
 >
-> - Revenue was off the chart.
-> - Profits were higher than ever.
+> - Most interesting code is Snoopy.cpp
 >
->  *Everything* is going according to **plan**.
+>  *Everything* else is just **gravy**.
