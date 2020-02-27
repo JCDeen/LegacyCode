@@ -20,13 +20,14 @@ Even though there are other files present under a given directory, the files men
      Snoopy allowed field techs to connect to those big lights you see in shopping malls and office parks.
      It was used to download operating statistics and other data from the lights. Other services were used to control the lights.
      
-> Company: ***BDM***
->> **Project:** *Blackrack*
-     
-     US Army
-     
->> **Project:** *ETSS*
-    
-    Eglin AFB Air Warfare Center
+> Company: ***SITA***
+>> **Project:** *Wafer* ("Windows Airfare Front End")
 
-> Company: *** Morton Thiokol ***
+     Server to read air fare field data and serve a GUI front end interface instead the 
+     old green screen text terminals you would see at the airline terminals of the time.
+     
+     We wrote the code to successfully compile on either Windows or a Unisys mainframe.
+     
+>> **Project:** *ScriptGen*
+     Read air fare field data files and generated scripts for use by air fare agents
+    
