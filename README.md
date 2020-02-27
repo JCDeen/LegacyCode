@@ -23,8 +23,8 @@ Even though there are other files present under a given directory, the files men
 > Company: ***SITA***
 >> **Project:** *Wafer* ("Windows Airfare FRont end")
 
-     Server to read air fare field data and serve a GUI front end interface instead the 
-     old green screen text terminals you would see at the airline terminals of the time.
+     Server to read air fare field data and serve a GUI front end interface instead of the 
+     old fashioned green screen text terminals you would see at the airline terminals of the time.
      
      We wrote the code to successfully compile on either Windows or a Unisys mainframe.
      
