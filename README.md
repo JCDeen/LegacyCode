@@ -21,7 +21,7 @@ Even though there are other files present under a given directory, the files men
      It was used to download operating statistics and other data from the lights. Other services were used to control the lights.
      
 > Company: ***SITA***
->> **Project:** *Wafer* ("Windows Airfare Front End")
+>> **Project:** *Wafer* ("Windows Airfare FRont end")
 
      Server to read air fare field data and serve a GUI front end interface instead the 
      old green screen text terminals you would see at the airline terminals of the time.
