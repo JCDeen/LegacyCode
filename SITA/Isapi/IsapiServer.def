@@ -1,0 +1,7 @@
+; ISAPISERVER.def : declares the module parameters for the DLL.
+
+LIBRARY	     "ISAPISERVER"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
