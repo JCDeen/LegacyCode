@@ -1,0 +1,1 @@
+g++ Server.cpp Clntmgr.cpp Idgen.cpp MFInterface.cpp MFTransaction.cpp TIPTransaction.cpp WFChild.cpp WFCSUnix.cpp WFSocket.cpp -lsocket -lnsl -oSERVER.cgi
