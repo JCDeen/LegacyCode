@@ -36,9 +36,7 @@ Even though there are other files present under a given directory, the files men
      Server to read air fare field data and serve a GUI front end interface instead of the 
      old fashioned green screen text terminals you would see at the airline terminals of the time.
      
-     We wrote the code to successfully compile on either Windows or a Unisys mainframe.
-     
-     ***This code will be the most relevant for discussions with SAIC.***
+     We wrote the code to successfully compile on either Windows or a Unisys mainframe.  
      
 >> **Project:** *ScriptGen*
 
