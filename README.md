@@ -12,7 +12,16 @@ Even though there are other files present under a given directory, the files men
      This code was written in C++ as an extension to the PHP server. 
      It was written in C++ to provide greater control over security issues and also speed.
      
-> Company: **Enfotrust**
+>>> You will probably also want to look at the files under the "/Paysafe/" subdirectory.
+     
+     At SGI, we used a SCM tool called "BitKeeper".
+     You may notice a string similar to this at the top of each file:
+          "// BitKeeper: jdeen@anya.gamelogic.com|lib/Ecommerce/ExternalProviderApi.h|20160301232156|34444"
+          
+     Which, in this case, merely indicates that jdeen was the last person to check in this code. 
+     It does not necessarily indicate original authorship.
+     
+> Company: ***Enfotrust***
 >> Snoopy.cpp
 
      A multi-threaded server running as a Windows service.
