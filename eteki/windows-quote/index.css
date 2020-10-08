@@ -1,0 +1,142 @@
+/***************************/
+/* Style common HTML tags. */
+/***************************/
+Xhtml {
+  height: 100%;
+}
+
+Xbody {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #B0C4DE; /* LightSteelBlue */
+  background: rgba(100, 145, 250, 0.3);
+}
+
+/*************************/
+/* Style named elements. */
+/*************************/
+#canvas 
+{
+   margin-left: 10px;
+   margin-right: 0;
+   margin-bottom: 10px;
+   border: thin solid #aaaaaa;
+   cursor: crosshair;
+}
+
+#controls 
+{
+   margin: 20px 0px 20px 20px;
+}
+         
+#xmain-holder {
+  width: 65%;
+  height: 90%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px black;
+}
+
+#xlogin-error-msg-holder {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#xlogin-error-msg {
+  width: 23%;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8a0000;
+  border: 1px solid #8a0000;
+  background-color: #e58f8f;
+  opacity: 0;
+}
+
+#error-msg-second-line {
+  display: block;
+}
+
+#xlogin-form {
+  align-self: flex-start;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#xlogin-form-submit {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #3a3a3a;
+  cursor: pointer;
+  outline: none;
+}
+
+/**********************/
+/* Style CSS classes. */
+/**********************/
+.input-label
+{
+	width: 400px;
+	color: green;
+	display: inline-block;
+}
+
+.w3-input {padding:8px;display:block;border:none;border-bottom:1px solid #ccc; width:250px; color: green}
+.w3-inputinline {padding:8px;display:inline;border:none;border-bottom:1px solid #ccc; width:150%; color: green}
+
+.inputDiv
+{
+	margin: 13px; 
+	height: 13px;	
+	width: 250px;}
+
+.Xlogin-form-field::placeholder {
+  color: #3a3a3a;
+}
+
+.Xlogin-form-field {
+  border: none;
+  border-bottom: 1px solid #3a3a3a;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  padding: 0px 0px 5px 5px;
+}
+
+/** Style for report pages. **/
+/** These will prob change! **/
+/** CHANGED padding from padding:10px 4px; **/
+/** CHANGED font-size from font-size:15px; **/
+
+.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg td{background-color:#fdf6e3;border-color:#93a1a1;border-style:solid;border-width:0px;color:#002b36;
+  font-family:Arial, sans-serif;font-size:12px;overflow:hidden;padding:3px 3px;word-break:normal;}
+.tgs td{background-color:#fdf6ff;border-color:#93a1a1;border-style:solid;border-width:0px;color:#002b36;
+  font-family:Arial, sans-serif;font-size:12px;overflow:hidden;padding:3px 3px;word-break:normal;}
+  
+.tg th{background-color:#657b83;border-color:#93a1a1;border-style:solid;border-width:1px;color:#fdf6e3;
+  font-family:Arial, sans-serif;font-size:12px; font-weight:bold; overflow:hidden;padding:3px 3px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+
+.dates {background-color:#fdf6e3;border-color:#93a1a1;border-style:solid;border-width:1px;color:#002b36;
+  font-family:Arial, sans-serif;font-size:12px; font-weight:bold; overflow:hidden;padding:3px 3px; width: 180px;
+  margin-top: -10px;}
+
+.striped {background-color:green;}
