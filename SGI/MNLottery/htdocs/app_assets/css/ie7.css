@@ -1,0 +1,283 @@
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+#numbers_close {
+	top: -40px;	
+}
+#signin {	
+	padding: 10px 0 0 0;
+}	
+#signin_internal {
+	zoom: 1;
+}
+#internal_numbers_container {
+	position: absolute;
+	top: 145px;
+	z-index: 50px;
+}
+#internal_content {
+	background-color: #33120d;
+	float:right;
+	margin-top: 6px;
+	margin-right: 6px;
+	width: 772px; /*772*/
+	zoom: 1;
+	position: relative;
+}
+
+#internal_content .carousel {
+	zoom: 1;
+}
+
+.tab_item, .tab_item img, .tab_item p {
+	zoom: 1;
+}
+body.internal #logo img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 25;
+}
+
+
+/***/
+
+body.internal #content
+{
+	margin-top: -15px;
+}
+#wrapper .logoAnchor
+{
+	height: 0px;
+}
+#sign
+{
+	margin-top: 15px;
+}
+#overlay_logo
+{
+	top: 131px; 
+	margin-bottom: -45px;
+	margin-top: -75px;
+}
+#nav {
+	position: absolute;
+	left: 150px;
+	top: 110px;
+	width: 600px;
+	height: 46px;
+	z-index: 999;
+}
+.Home
+{
+	width: 760px;
+}
+.LeftNav
+{
+	height: 429px;
+}
+ul.left_nav_content li ul.LeftNav_Sub
+{
+	margin-left: 40px;
+	margin-right: -40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+ul.left_nav_content li ul li a:visited
+{
+	color: #000000;
+}
+ul.left_nav_content li ul li a:hover
+{
+	color: #0E7A15;
+}
+.scrollLeft
+{
+	left: -12px;
+}
+.FeaturedPrizes
+{
+	width: 680px;
+	margin-top: -40px;
+	margin-right: 30px;
+}
+.FeaturedContent
+{
+	width: 680px;
+	margin-right: 0px;
+}
+.FeaturedContent .items div
+{
+	height: 128px;
+	width: 219px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.FeaturedContent .items div p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.FeaturedContent .items div p a
+{
+	text-decoration: underline;
+}
+#footer_home
+{
+	top: 70px;
+}
+.SubPage
+{
+	padding-left: 0px;
+	width: 760px;
+	float: right;
+}
+.RightCol
+{
+	padding: 0;
+	width: 750px;
+	float:right;
+}
+.entryDir
+{
+	font-size: 12px;
+}
+.currentEntries
+{
+	width: 370px;
+	float: right;
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: -10px;
+}
+.ticketEntry
+{
+	width: 350px; /* was 370px */
+}
+.ticketArt
+{
+	margin-top: 0px;
+}
+.entryInfo
+{
+	padding-top: 0px;
+}
+#sortspan
+{
+	width: 750px;
+}
+.ListInfo
+{
+	width: 750px;
+}
+.RightColWhite
+{
+	width: 730px;
+	padding: 0px;
+}
+.DetailsRight #add_prize_to_cart table tr td
+{
+	color: #000000;
+}
+.DetailsRight #add_prize_to_cart table tr td a
+{
+	color: #000000;
+}
+.Prize p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.Prize p a
+{
+	color: #000000;
+}
+.Prize p a:visited
+{
+	color: #000000;
+	text-decoration: underline;
+}
+.prizeDesc
+{
+	float: left;
+	text-align: left;
+	width: 130px;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: absolute;
+	top: 170px;
+}
+.prizeDesc a:visited
+{
+	color: #015383;
+	text-decoration: underline;
+}
+.cartTable
+{
+	width: 750px;
+}
+.enterTickets
+{
+	padding-left: 0px;
+	margin-top: 20px;
+}
+.notifications
+{
+	margin-top: 10px;
+	padding-bottom: 0px;
+}
+.entryInfo
+{
+	
+}
+.entryError,.entrySuccess
+{
+	width:350px;
+	height:130px;
+	color:#FFF;
+	font-weight:normal;
+	text-align:center;
+	margin-bottom: 10px;
+}
+.shippingTable {width: 325px; border: 0px; background: transparent;}
+.shippingTable td.left {width: 120px; text-align: right; padding-right: 10px;}
+#notChecked
+{
+	display: none;
+}
+#notCheckedLong .errorMsg
+{
+	padding-left: 0px;
+	top: 10px;
+	width: 760px;
+}
+.entryErrorLong
+{
+	width: 770px;
+	height: 50px;
+	background: transparent url(/graphics/subpages/bg-error-long.png) no-repeat scroll 0 0
+}
+#checked
+{
+	display: none;
+}
+#checked .successMsg
+{
+	padding-left: 0px;
+	top: 10px;
+	width: 760px;
+}
+.entrySuccessLong
+{
+	width: 770px;
+	height: 50px;
+	background: transparent url(/graphics/subpages/bg-congrats-long.png) no-repeat scroll 0 0
+}
+#footer_internal
+{
+	padding-bottom: 10px;
+}

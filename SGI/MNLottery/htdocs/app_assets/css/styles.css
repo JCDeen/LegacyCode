@@ -1,0 +1,440 @@
+/* Global Resets */
+
+body{
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#009600 url(../images/global/logo-bg.gif) repeat scroll center top;
+color:#000000;
+font-family:Helvetica,Arial,sans-serif;
+font-size:12px;	
+}
+
+body,div,dl,dt,dd,ol,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td { 
+	margin:0;
+	padding:0;
+	vertical-align:top;}
+
+fieldset,img {border:0;}
+
+a img,:link img,:visited img {border:none}
+
+a:focus {outline: 0;}
+
+:link,:visited {text-decoration:none}
+
+address,caption,cite,code,dfn,th,var {font-style:normal; font-weight:normal;}
+
+caption,th {text-align:left;}
+
+h1,h2,h3,h4,h5,h6{margin:5px 0;}
+h1 {font-size:30px; font-weight: normal;}
+h2 {font-size:20px; color:#006600; font-weight:normal;}
+h3 {font-size: 18px; color: #015383; font-weight: bold;}
+h4 {font-size: 14px; color: #015383; font-weight: bold;}
+h5 {font-size: 10px; color: #025902; font-weight: bold;}
+h6 {font-size: 14px; color:#006600; font-weight:bold;}
+
+input,select {font-size:14px; border:1px solid #85a2bc;}
+input {padding:2px 3px;}
+.error {color:#CC0000; font-weight:bold;}
+
+a{color:#447EA0; text-decoration:underline;}
+
+/* Global Styles */
+
+.clearFloats{clear:both;}
+
+.MainContainer {text-align: center; background: url(../images/global/bodygradient-bg.png) repeat-x top left;}
+* html .MainContainer{behavior:url(/inc/iepngfix.htc); background: url(../images/global/bodygradient-bg.png) repeat-x top left;}
+
+.Container {width: 970px; margin: 0 auto; text-align: left;}
+
+.TopButtons {padding-top: 10px; text-align: right; margin-bottom: 5px;}
+.TopButtons .button {margin-right: 20px;}
+.TopButtons .loggedin-btns{height:24px;}
+.TopButtons .loggedin-btns .left{float:left;padding-left:20px;}
+.TopButtons .loggedin-btns .right{float:right;color:#fff;padding-right:20px;}
+.TopButtons .loggedin-btns .right a{color:#fff;text-decoration:underline;}
+
+.Content {background: #FFF; padding: 10px 10px 10px 10px; border: 1px solid #014b00; margin-bottom: 20px;}
+
+.Header {width: 950px; height: 105px; background: url(../images/subpages/header-image.jpg) no-repeat top;}
+.Header .logo {margin: -55px 0px 0px 380px; position: absolute;}
+
+.Navigation {background: url(../images/global/nav-bg.jpg) repeat-x left top; width:925px; height:40px; padding:0 0 0 25px; margin:1px 0 30px;}
+.Navigation div{float:left; font-size:16px; height:40px; padding: 0px 10px;}
+.Navigation div a {color: #FFF; font-weight: bold; text-decoration: none; padding:10px; height:20px; display:block;}
+* html .Navigation div a{display:inline-block;}
+.Navigation div a:hover {background: url(../images/global/nav-on-bg.jpg) repeat-x left; padding:10px; height:20px; display:block; }
+* html .Navigation div a:hover{display:inline-block;}
+
+.LoggedIn {text-align: left; float: left;color:#fff;}
+.LoggedIn .Points {color: #fff; font-size: 18px; font-weight: bold;}
+.LoggedIn a{color: #015383; text-decoration: underline;}
+
+.SubPage {width: 910px; padding:0 20px 10px 20px; margin-top:-10px; }
+.SubPage p a{color:#447EA0; text-decoration:underline;}
+.SubPage p.buttons a {text-decoration: none;}
+
+.MainContent {background: url(../images/subpages/content-bg.gif) repeat-y top left; width:910px; padding:18px 30px;}
+.PrizeContent {width:910px; padding:18px 30px;}
+.DrawingContent {width:910px; padding:18px 30px;}
+.MainContent a {color: #0a254c; text-decoration: underline;}
+.Points {font-size: 2em; font-weight: bold;}
+.ClearCol {clear: both;}
+.MainContent-bottom {background: url(../images/subpages/content-bottom-bg.gif) no-repeat; width: 910px; height: 14px; clear: both;}
+.MainContent-top {background: url(../images/subpages/content-top-bg.gif) no-repeat; width: 910px; height: 14px; clear: both;}
+.OldPrice {font-size:2em; color:#666; text-decoration:line-through; display:block;}
+.NewPrice {font-size:2em; font-weight:bold; color:#C00;  }
+
+.Footer {width: 950px; text-align: center; color: #000; font-size: 12px; padding: 30px 0px 20px 0px; clear: both;}
+.Footer ul {margin: 0px; padding: 10px 0px 0px 0px;}
+.Footer ul li {display: inline;}
+.Footer ul li a {color: #015383; text-decoration: underline;}
+.Footer ul li a:hover {color: #050;}
+
+/*Pagination*/
+.ListInfo {height:22px; border-top: 1px solid #c8c8c8; border-bottom: 1px solid #c8c8c8; background: #f5f5f5; padding: 5px 10px 0; margin-top: 10px;}
+.Displaying {float:left;}
+.ItemsPerPage{float:right; }
+.ItemsPerField{float:right; margin:-2px .5em 0 5px;}
+.ItemsPerField select{font-size:11px;}
+.Pages {float:right}
+.Pages a {color: #015383; margin:0 .2em; padding: 0 .25em; text-decoration: underline;}
+.Pages a.active {color: #333; text-decoration: none; border: 1px solid #c8c8c8; background: #fff;}
+
+/* Home Page */
+
+.HomeHeader {width: 950px; height: 342px; text-align: left;}
+.HomeHeader .logo {margin: -55px 0px 0px 380px; position: absolute;}
+
+.Home {width: 950px; margin-top:-20px;}
+.Home .LoggedIn {width: 950px; text-align: right; margin:0 15px 10px 0;}
+.Home .LoggedIn .Points {color: #027502; font-size: 12pt; font-weight: bold;}
+.Home .LoggedIn a{color: #015383; text-decoration: underline;}
+
+.Ad {float: left; width:230px;}
+
+/* Home Page - FEATURED PRIZES JS SLIDER */
+.FeaturedPrizes{width:710px; float:right; position:relative}
+
+.FeaturedContent{
+	position:relative;
+	overflow:hidden; 
+	width:657px; 
+	height:161px; 
+	background:url(../images/home/bg_featured-top.gif) no-repeat top left; 
+	margin-left:11px;
+	padding: 0 15px;
+	}
+.FeaturedContent .items {
+	width:20000em;
+	position:absolute;
+	clear:both;
+	height:126px;
+}
+.FeaturedContent .items div {
+	float:left;
+	width: 189px;
+	padding: 0 15px;
+	border-right:1px solid #CCC;
+	height:123px; 
+}
+.FeaturedContent .items div .prizeImg {float:left; margin-right:5px; margin-bottom:150px;}
+.FeaturedContent .items div .sale {position:relative; z-index:2px; left:1px; float:left; margin-right:-48px;}
+.FeaturedContent .items div p {/*width:100px; float:right; */}
+.FeaturedContent h1{padding:5px 0 0 15px; font-size:14px; font-weight:bold; color:#FFF; height:29px; margin:0;}
+
+.FeaturedContentBottom{background:url(../images/home/bg_featured-bottom.gif) no-repeat top left; width:687px; height:14px; position:relative; top:-4px; left:11px;}
+
+.scrollLeft{position:absolute; top:31px; left:1px; height:1px;}
+.scrollRight{position:absolute; top:31px; right:1px; height:1px}
+/* html .scrollLeft,.scrollRight{top:-142px;}*/
+
+/* Login */
+
+.Login {width: 450px; float: left; font-size: 10pt; color: #000; padding-left: 50px;}
+
+.LoginBox {width: 210px; font-weight: bold; text-align: left;}
+.LoginBox p {margin: 0px; padding: 0px;}
+.LoginBox .field {width: 210px; height: 20px; border: 1px solid #7f9db9; margin-bottom: 15px;}
+.LoginBox .button {text-align:center; margin-top:10px; border:none;}
+.LoginBox .button img {margin-bottom:10px;}
+.LoginBox .button a.link {color: #485964; text-decoration: underline; font-size: 9pt; font-weight: normal;}
+
+.LoginButton {padding: 0px 0px 0px 60px;}
+
+/* Prizes */
+
+.MainContent-topPrizes {width: 850px; height: 44px; margin-top: 20px; font-size: 12pt; padding: 0px 30px; text-align: center; color: #006600; font-weight: bold; font-family: Arial,sans-serif; border-top: 2px solid #DDDDDD; border-left: 2px solid left; border-right: 2px solid left;}
+
+.MainContent-topPrizes .Prizes {float: left; padding: 16px 0px 0px 206px;}
+.MainContent-topPrizes .Prizes a {color: #006600; font-weight: bold; text-decoration: none;}
+.MainContent-topPrizes .Drawings {float: right; padding: 16px 206px 0px 0px;}
+.MainContent-topPrizes .Drawings a {color: #717171; font-weight: bold; text-decoration: none;}
+
+.LeftCol {width: 220px; float: left;}
+.LeftCol ul {list-style: none; margin: 10px 0px 30px 0px; padding: 0px;}
+.LeftCol li {padding: 3px 0px 3px 0px;}
+.LeftCol p {text-align: center;}
+.LeftCol select {margin-bottom:1em;}
+
+.RightCol {width: 850px; float: left; color: #3f3f3f; margin-top: -5px;}
+.RightCol p {margin: 0px; padding: 0px;}
+.RightCol select {/*width: 160px;*/}
+
+.FullCol {width: 850px; color: #3f3f3f; margin-top: -5px;}
+.FullCol .PrizeList {width: 850px; margin-top: 5px; padding-left: 40px;}
+
+.MainContent .PrizeList {margin-top: 5px; /*padding-left: 4px;*/}
+
+/* html .MainContent .PrizeList {padding-left: 7px;}*/
+
+.Prize {width: 150px; height: 265px; border: 1px solid #ccc; text-align: left; float: left; margin: 0px 5px 10px 0px;}
+.Prize p {margin: 0 10px; padding-top: 5px;}
+.Prize a {color: #015383; text-decoration: underline; font-weight: bold;}
+
+.DetailsLeft {width: 315px; text-align: left; float: left;}
+.DetailsLeft img {margin-top: 30px;}
+
+.DetailsRight {width: 370px; text-align: left; float: left; padding-top: 22px;}
+.DetailsRight .details {margin-bottom: 35px;}
+.DetailsRight td {background: #fff; border: 0px; vertical-align: middle; padding: 0px 0px 3px 0px;}
+.DetailsRight td select { border: 1px solid #85a2bc;}
+.DetailsRight input { border: 1px solid #85a2bc;}
+.DetailsRight td.attribute {width: 6.5em;}
+.DetailsRight img {margin-top: 10px;}
+
+.ThumbWrapper {width: 275px; margin-left:10px;}
+.ThumbWrapper img {margin-left:5px;}
+.ThumbWrapper p { width: 275px; border-top:1px solid #DEDEDE; margin:.5em 0 0; padding:10px 0 10px 15px; background:url(../images/subpages/magnify.gif) 10px left no-repeat; }
+
+/* Drawings */
+
+.MainContent-topDrawings{background: url(../images/subpages/content-topDrawings-bg.gif) no-repeat; width: 910px; height: 44px; margin-top: 20px; font-size: 12pt;}
+.MainContent-topDrawings .Prizes {float: left; padding: 16px 0px 0px 206px;}
+.MainContent-topDrawings .Prizes a {color: #717171; font-weight: bold; text-decoration: none;}
+.MainContent-topDrawings .Drawings {float: right; padding: 16px 206px 0px 0px;}
+.MainContent-topDrawings .Drawings a {color: #006600; font-weight: bold; text-decoration: none;}
+
+.DetailsRight table.Drawings {margin-top: 20px; vertical-align: top;}
+.DetailsRight table.Drawings td {vertical-align: top;}
+.DetailsRight table.Drawings td.left {width: 105px;}
+.DetailsRight input.entries {margin-top: -5px;}
+
+.drawingsTable{width:765px; border-top:1px solid #DEDEDE; border-left:1px solid #DEDEDE; border-right:1px solid #DEDEDE; margin:10px 0;}
+.drawingsTable th,td{padding:8px; border-bottom:1px solid #DEDEDE; font-size:13px; background:#FBFCFC;}
+.drawingsTable th{background:#447EA0; color:#FFF; font-weight:bold;}
+.drawingsTable th a{color:#FFF; text-decoration:none; font-weight:bold;}
+.drawingsTable td.adjustColRight{text-align:right; padding-right: 50px;}
+.drawingsTable td a {text-decoration: underline; color: #0a283a;}
+
+/*Points History*/
+
+.accountNav{background:#E7E7E7; border:1px solid #DEDEDE; width:890px; padding:10px;margin:10px 0px;}
+* html .accountNav{margin:10px 0px;}
+.accountNav li{display:inline; border-right:1px solid #000; padding:0 5px;}
+.accountNav li.first{padding-left:0;}
+.accountNav li.last{border:none;}
+.accountNav li a{color:#015383; text-decoration:none;}
+
+.pointsTable{width:700px; border-top:1px solid #DEDEDE; border-left:1px solid #DEDEDE; border-right:1px solid #DEDEDE; margin:10px 0;}
+* html .pointsTable{width:700px;}
+.pointsTable th,td{padding:8px; border-bottom:1px solid #DEDEDE; font-size:13px; background:#FBFCFC;}
+.pointsTable th{background:#447EA0; color:#FFF; font-weight:bold;}
+.pointsTable th a{color:#FFF; text-decoration:none; font-weight:bold;}
+.pointsTable td.adjustColRight{text-align:right;}
+.pointsTable td.adjustColCtr{text-align:center;}
+.pointsTable td.adjustColCtr span{color:#FD0303;}
+.pointsTable td a {text-decoration: underline; color: #173e54;}
+.pointsTable td .new {color: #cc0202; font-weight: bold; padding-left: 15px;}
+
+/*Order Details*/
+.orderInfo{width:200px; margin:15px 0;}
+.orderInfo dt{width:75px; text-align:right;}
+.orderInfo dd{width:125px; top:-15px; left:95px; position:relative}
+
+.orderTotal{width:845px; padding:8px; text-align:right; color:#447EA0; font-size:16px; font-weight:bold;}
+/* * html .orderTotal{width:700px;} */
+
+/*Ticket Entry*/
+/*right*/
+.currentEntries{float:right; width:380px; padding-top:15px;}
+
+.entryTable{width:380px; border-top:1px solid #DEDEDE; border-left:1px solid #DEDEDE; border-right:1px solid #DEDEDE; margin:10px 0;}
+.entryTable th,td{padding:8px; border-bottom:1px solid #DEDEDE; font-size:13px; background:#FBFCFC;}
+.entryTable th{background:#447EA0; color:#FFF; font-weight:bold;}
+.entryTable th a{color:#FFF; text-decoration:none; font-weight:bold;}
+.entryTable td a{text-decoration:underline;}
+
+/*left*/
+.enterTickets{float:left; width:500px;}
+.ticketEntry{background:#F6F3F3; border:1px solid #DEDEDE; width:480px; padding:10px; font-size:13px; font-weight:bold; margin:20px 0;}
+.ticketEntry dt{font-weight:bold; width:120px;}
+.ticketEntry dd{width:175px; top:-15px; left:120px; position:relative;}
+.ticketEntry dd.entryField input {width: 90px; border: 1px solid #85a2bc;}
+.ticketEntry dd.entryField select {border: 1px solid #85a2bc;}
+
+.entryError,.entrySuccess
+{	float:right;
+	width:163px; 
+	height:130px; 
+	color:#FFF; 
+	font-weight:normal; 
+	text-align:center; 
+	padding-top:20px;
+}
+.entryError em,.entrySuccess em{font-size:16px; font-weight:bold;}
+.entryError span,.entrySuccess span{font-size:30px; font-weight:bold;}
+.entryError{background:url(../images/subpages/bg-error.gif) no-repeat;}
+.entrySuccess{background:url(../images/subpages/bg-congrats.gif) no-repeat;}
+.entryError p .redeemPoints{color:#FFF; text-decoration:underline;}
+.entrySuccess p .redeemPoints{color:#FFF; text-decoration:underline;}
+
+.entryLegal{width:500px;}
+.ticketArt{float:right; width:212px; height:302px; border:1px solid #DEDEDE; margin:0 0 0 10px;}
+.entryDir{float:left; width:270px;}
+
+/* My Profile */
+
+.ProfileInfo {margin: 20px 0px 20px 0px; color: #3f3f3f;}
+.ProfileInfo td {padding-bottom: 0px; vertical-align: middle; background: #FFF; border: 0px;}
+.ProfileInfo td.left {width: 100px;}
+.ProfileInfo td.right {}
+.ProfileInfo td.right input.Field {width: 205px; border: 1px solid #85a2bc;}
+.ProfileInfo td.right input.ShortField {width: 90px; border: 1px solid #85a2bc;}
+
+.NewsletterInfo {width: 540px; margin: 20px 0px 20px 0px; color: #3f3f3f;}
+.NewsletterInfo td {padding-bottom: 0px; vertical-align: middle; background: #FFF; border: 0px;}
+.NewsletterInfo td.left {width: 100px;}
+
+/*.buttons {margin: 20px 0px 0px 125px;}
+.buttons img {margin-right: 20px;}*/
+
+/* FAQ */
+
+.Question {width: 865px; border-top: 1px solid #c7c5c5; padding-top: 15px; margin-top: 20px;}
+.Question p {margin-top: 5px; line-height: 1.2;}
+
+/* Feedback */
+
+.Feedback {width: 560px; padding-left: 50px; font-size: 10pt;}
+.Feedback table {width: 560px; border:none; background: #FFF;}
+.Feedback table td {border-bottom: none; background: #FFF; padding: 0px 0px 5px 0px;}
+.Feedback table td.left {width: 90px; border-bottom:none;}
+.Feedback table td.right {width: 315px; border-bottom:none;}
+.Feedback table td.buttons {width: 315px; padding-top: 25px;}
+.Feedback table td.buttons img {margin-right: 15px;}
+.Feedback table td.right input {width: 206px; border: 1px solid #85a2bc;}
+.Feedback table td textarea {width: 315px; height: 100px; border: 1px solid #85a2bc;}
+
+/* Shopping cart */
+
+.cartTable {width:850px; border-top:1px solid #DEDEDE; border-left:1px solid #DEDEDE; border-right:1px solid #DEDEDE; margin:10px 0;}
+* html .cartTable {width:850px;}
+.cartTable th,td {padding:8px; border-bottom:1px solid #DEDEDE; font-size:13px; background:#FBFCFC;}
+.cartTable th {background:#447EA0; color:#FFF; font-weight:bold;}
+.cartTable th a {color:#FFF; text-decoration:none; font-weight:bold;}
+.cartTable td.adjustColRight {text-align:right;}
+.cartTable td.adjustColCtr {text-align:center;}
+.cartTable td.adjustColCtr span {color:#FD0303;}
+.cartTable td a {text-decoration: underline; color: #173e54;}
+.cartTable td input {width: 36px; border: 1px solid #85a2bc;}
+.cartTable td .ShippedTo {font-weight: bold; margin-bottom: 5px;}
+.cartTable td ul {margin: 0px; padding: 0px; list-style: none;}
+.cartTable td li {padding-bottom: 5px;}
+
+.shippingTable {width: 315px; border: 0px; background: transparent;}
+.shippingTable td {border: 0px; background: transparent; vertical-align: middle; padding:6px 8px;}
+.shippingTable td.left {width: 110px;}
+.shippingTable td .field {width: 205px;}
+.shippingTable td .shortfield, .state {width: 90px;}
+
+.CartButtons {float:right; padding:10px 60px 0px 0px;}
+.CartButtons p a {color:#fff; text-decoration:none;}
+.CartButtons .buttons {float:right; text-align:right;}
+
+* html .CartButtons {padding-right: 50px;}
+.CartButtons img {margin-left: 15px;}
+
+.ThankYou {padding-top: 20px;}
+
+ul.TooMuchLinks {list-style: none; margin: 0px; padding: 0px;}
+ul.TooMuchLinks li {padding: 4px 0px;}
+ul.TooMuchLinks li a {color: white; text-decoration: none;}
+ul.TooMuchLinks p {margin: 0px;}
+
+/*--------------------*/
+/*GLOBAL BUTTONS STYLE*/
+/*--------------------*/
+@charset "UTF-8";
+/* CSS buttons */
+.buttons { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    /*width: 100%;*/
+}
+
+/* set normal link state */
+
+.button1, .button2, .button3 {
+	cursor:pointer;
+    background: transparent url('../images/global/bg_btn1_rt.gif') no-repeat top right;
+    color: #FFF;
+    display: block;
+    float: left;
+    font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 15px; /* sliding doors padding */
+    text-decoration: none;
+	text-shadow: 1px 1px 1px #000; /* adds drop shadow for compatible browsers */
+}
+
+.button1 span, .button2 span, .button3 span, .button1 input, .button2 input, .button3 input{
+    background: transparent url('../images/global/bg_btn1_left.gif') no-repeat;
+    display: block;
+	font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#FFF;
+	height: 24px;
+	border:none;
+    line-height: 24px;
+    padding: 0 0 0 15px;
+    text-shadow: 1px 1px 1px #000; /* adds drop shadow for compatible browsers */
+}
+
+/* reset background image for buttons 2 and 3 */
+
+.button2 {
+	background-image:url('../images/global/bg_btn2_rt.gif');
+}
+
+.button2 span, .button2 input {
+	background-image:url('../images/global/bg_btn2_left.gif');
+}
+
+.button3 {
+	background-image:url('../images/global/bg_btn3_rt.gif');
+}
+
+.button3 span, .button3 input {
+	background-image:url('../images/global/bg_btn3_left.gif');
+}
+
+/* set active state */
+
+.button1:active, .button2:active, .button3:active {
+    background-position: bottom right;
+    color: #E7E7E7;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+.button1:active span, .button2:active span, .button3:active span, .button1 input:active, .button2 input:active, .button3 input:active {
+    background-position: bottom left;
+    outline: none;
+    padding: 1px 0 0 15px; /* push text down 1px */
+}
+.button1:active span, .button2:active span, .button3:active span {
+	height: 23px;
+	line-height:23px;
+	}

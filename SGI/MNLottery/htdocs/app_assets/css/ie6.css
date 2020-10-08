@@ -1,0 +1,528 @@
+body {
+	font-size:90%;
+}
+h1{
+	font-weight: bold;
+}
+
+/*
+.indicator {
+	left:-10000px;
+}
+*/
+#wrapper {
+	zoom:1;
+}
+
+#left_nav {
+	font-size: 80%;
+}
+
+.number_checker div#numbers_panel_home {
+	zoom:1;
+}
+
+.numbers_sign {
+	background-image: url("../graphics/global/numbers_sign.gif"); /*png*/
+}
+
+#internal_numbers_container {
+	position: absolute;
+	left: 705px;
+	top: 155px; /*150*/
+	z-index: 50;
+}
+
+#internal_numbers_container #sign {
+	background-image: url('../graphics/global/numbers_click_to_view.gif'); /*png*/
+	margin-top: -147px;
+}
+
+#numbers_top {
+	font-size: 80%;
+	height:32px;
+	overflow: hidden;
+}
+
+#numbers_close {
+	top:-30px;
+}
+
+#signin_internal{
+	z-index: 1;
+	zoom:1;
+}
+#signin {	
+	padding: 10px 0 0 0;
+}
+
+.welcome {
+	font-size: 14px;
+	line-height:normal;
+}
+
+#logo {
+	background-image: url("../graphics/global/nav_bg_no_logo.png");
+	background-repeat: no-repeat;
+	margin: 58px 0 0 0;
+	height: 103px;
+	width: 990px;
+	top: 10px;
+	position: relative;
+	z-index: -1;
+	zoom:1;
+}
+body.internal #logo {
+	background-image: url("../graphics/global/nav_bg_no_logo.png");
+	background-repeat: no-repeat;
+	margin: 58px 0 0 0;
+	height: 96px; /*87*/
+	width: 990px;
+	position: relative;
+	z-index: -1;
+	zoom:1;
+}
+
+#overlay_logo {
+	height:103px;
+	left: -20px;
+	margin-bottom: -20px;
+	margin-top: -100px;
+	position: relative;
+	top:161px; /*161*/
+	width:210px;
+	z-index: 30;
+}
+
+body.internal #content {
+	zoom: 1;
+}
+body.internal #signin {
+	zoom: 1;
+}
+#internal_content {
+	height: 820px;
+}
+
+/* MAIN NAV
+********************************************************/
+
+#nav {
+	position: absolute;
+	left: 150px;
+	top: 117px;
+	width: 600px;
+	height: 46px;
+	z-index: 999;
+}
+body.internal #content {
+	background-color:#33120D;
+	margin: -13px 0 0 0;
+	padding: 0;
+	position: relative;
+	width: 971px;
+}
+#nav li a#lucky_home  {
+	background-image: url('../graphics/global/nav2_home.gif');
+	background-repeat: no-repeat;
+	display: block;
+	height: 46px;
+	width: 52px;
+}
+
+#nav li.current a#lucky_home   {
+	background-position: 0 -46px;
+}
+
+#nav li a#lucky_home:hover  {
+	background-position: 0 -46px;
+}
+
+#nav li a#lucky_contests  {
+	background-image: url('../graphics/global/nav2_contests.gif');
+	background-repeat: no-repeat;
+	display: block;
+	height: 46px;
+	width: 90px;
+}
+
+#nav li.current a#lucky_contests   {
+	background-position: 0 -46px;
+}
+
+#nav li a#lucky_contests:hover  {
+	background-position: 0 -46px;
+}
+
+#nav li a#lucky_exclusives  {
+	background-image: url('../graphics/global/nav2_lucky_exclusives.gif');
+	background-repeat: no-repeat;
+	display: block;
+	height: 46px;
+	width: 151px;
+}
+
+#nav li.current a#lucky_exclusives   {
+	background-position: 0 -46px;
+}
+
+#nav li a#lucky_exclusives:hover  {
+	background-position: 0 -46px;
+}
+
+#nav li a#lucky_fun_stuff  {
+	background-image: url('../graphics/global/nav2_fun_stuff.gif');
+	background-repeat: no-repeat;
+	display: block;
+	height: 46px;
+	width: 92px;
+}
+
+#nav li.current a#lucky_fun_stuff   {
+	background-position: 0 -46px;
+}
+
+#nav li a#lucky_fun_stuff:hover  {
+	background-position: 0 -46px;
+}
+
+#nav li a#lucky_winners  {
+	background-image: url('../graphics/global/nav2_winners.gif');
+	background-repeat: no-repeat;
+	display: block;
+	height: 46px;
+	width: 78px;
+}
+
+#nav li.current a#lucky_winners   {
+	background-position: 0 -46px;
+}
+
+#nav li a#lucky_winners:hover  {
+	background-position: 0 -46px;
+}
+
+#nav li a#lucky_events  {
+	background-image: url('../graphics/global/nav2_events.gif');
+	background-repeat: no-repeat;
+	display: block;
+	height: 46px;
+	width: 69px;
+}
+
+#nav li.current a#lucky_events   {
+	background-position: 0 -46px;
+}
+
+#nav li a#lucky_events:hover  {
+	background-position: 0 -46px;
+}
+
+/******************/
+
+#footer_home
+{
+	top: 20px;
+}
+
+#left_nav {
+	background-color: #33120d; /* 0d */
+	float:left;
+	margin-top: 6px;
+	margin-left: 6px;
+	width: 179px;
+}
+ul.left_nav_content {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul.left_nav_content li {
+	margin: 0;
+	padding: 0;
+}
+ul.left_nav_content li a {
+	background-image: url("/graphics/global/leftnav_header.png");
+	background-repeat: no-repeat;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	padding-top:10px;
+	width:179px; 
+	height:37px; 
+	text-align:center; 
+	cursor:pointer;
+}
+ul.left_nav_content li ul {
+	margin: 0;
+	list-style-image:url("/graphics/global/leftnav_star_gold.png");
+	text-align:left;
+}
+ul.left_nav_content li ul li {
+	margin: 0;
+	padding-left: 0px;
+}
+ul.left_nav_content li ul li a {
+	background-image: none;
+	background-repeat: no-repeat;
+	font-size: 12px;
+	font-weight: normal;
+	display: block;
+	padding: 0 0 0 0px;
+	color: #000000;
+	text-align:left;
+	height:20px;
+	width: 120px;
+}
+ul.left_nav_content li ul li a:visited
+{
+	color: #000000;
+}
+ul.left_nav_content li ul li a:hover
+{
+	color: #0E7A15;
+}
+ul.left_nav_content li ul li ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul.left_nav_content li ul li ul li {
+	margin: 0;
+	padding: 0;
+}
+ul.left_nav_content li ul li ul li a {
+	background-image: none;
+	background-repeat: no-repeat;
+	font-size: 13px;
+	font-weight: normal;
+	display: block;
+	padding: 0 0 0 21px;
+	color: #000;
+}
+.Home
+{
+	width: 760px;
+}
+.LeftNav
+{
+	height: 429px;
+}
+.LeftNav_Sub
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+}
+.FeaturedPrizes
+{
+	width: 680px;
+	margin-top: -60px;
+	margin-right: 25px;
+}
+.SubPage
+{
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 10px;
+	width: 770px;
+	float: left;
+}
+.RightCol
+{
+	padding: 0;
+	width: 750px;
+	float:right;
+}
+.entryDir
+{
+	font-size: 12px;
+}
+.currentEntries
+{
+	width: 360px;
+	float: right;
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: -20px;
+}
+.ticketEntry
+{
+	width: 360px;
+}
+.ticketArt
+{
+	margin-top: 0px;
+}
+.notifications
+{
+	padding-bottom: 10px;
+}
+.entryInfo
+{
+	padding-top: 0px;
+}
+#sortspan
+{
+	width: 750px;
+}
+.ListInfo
+{
+	width: 750px;
+}
+.RightColWhite
+{
+	width: 730px;
+	padding: 0px;
+}
+.DetailsRight #add_prize_to_cart table tr td
+{
+	color: #000000;
+}
+.DetailsRight #add_prize_to_cart table tr td a
+{
+	color: #000000;
+}
+.Prize p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.Prize p a
+{
+	color: #000000;
+}
+.Prize p a:visited
+{
+	color: #000000;
+	text-decoration: underline;
+}
+.prizeDesc
+{
+	float: left;
+	width: 140px;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: absolute;
+	top: 170px;
+}
+HTML .cartTable
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 750px;
+}
+.cartTable
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 750px;
+}
+.entryError
+{
+	margin-top: 10px;
+	padding-top: 40px;
+	padding-left: 0px;
+	float: left;
+	width: 370px;
+}
+.entrySuccess
+{
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-left: 0px;
+	float: left;
+	width: 370px;
+}
+.shippingTable {width: 325px; border: 0px; background: transparent;}
+.shippingTable td.left {width: 120px; text-align: right; padding-right: 10px;}
+.enterTickets
+{
+	padding-left: 0px;
+	margin-top: 20px;
+}
+.errorMsg
+{
+	width: 350px;
+	padding-left: 5px;
+	padding-right: 5px;
+	top: 0px;
+}
+.successMsg p a
+{
+	color: #ffffff;
+	text-decoration: underline;
+}
+.successMsg p a:visited
+{
+	color: #ffffff;
+	text-decoration: underline;
+}
+#notChecked
+{
+	display: none;
+}
+#notCheckedLong .errorMsg
+{
+	padding-left: 0px;
+	top: -30px;
+	width: 760px;
+}
+.entryErrorLong
+{
+	width: 750px;
+	height: 20px;
+	padding-bottom: 0px;
+	background: transparent url(/graphics/subpages/bg-error-long.png) no-repeat scroll 0 0
+}
+#checked
+{
+	display: none;
+}
+#checked .successMsg
+{
+	padding-left: 0px;
+	top: 10px;
+	width: 760px;
+}
+.entrySuccessLong
+{
+	width: 750px;
+	height: 50px;
+	background: transparent url(/graphics/subpages/bg-congrats-long.png) no-repeat scroll 0 0
+}
+.PrizeDesc a
+{
+	color: #015383;
+}
+.PrizeDesc a:visited
+{
+	color: #015383;
+	text-decoration: underline;
+}
+.entryTableHead th
+{
+	background-image: url(/graphics/global/tableheader_bg_t.jpg); 
+	background-repeat: repeat-x;
+}
+.RightCol .cartTable TBODY TR TH
+{
+	background-image: url(/graphics/global/tableheader_bg_t.jpg);
+	background-repeat: repeat-x;
+}
+.CartButtons form p.buttons
+{
+	float: none;
+}
+#nav ul li a:hover
+{
+	background-position: 0px -46px;
+}
+#footer_internal
+{
+	padding-bottom: 10px;
+}
