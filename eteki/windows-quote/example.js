@@ -3,9 +3,6 @@
  * Copyright (C) 2012 David Geary.
  */
 
-// CAN THESE LINES BE SEPARATE - EACH With a semicolon termination ?
-// CAN THESE LINES BE SEPARATE - EACH With a semicolon termination ?
-
 var canvas = document.getElementById('canvas'), context = canvas.getContext('2d'),
 
     resetButton = document.getElementById('resetButton'),
@@ -87,6 +84,7 @@ function restoreRubberbandPixels()
       (rubberbandRectangle.height - 2*context.lineWidth) * deviceHeightOverCSSPixels);
 }
 
+// JCDeen
 function pixelReset() 
 {
    var deviceWidthOverCSSPixels = imageDataCopy.width / canvas.width,
@@ -159,6 +157,7 @@ function rubberbandStretch(x, y)
    }
 };
 
+/* extensive modification by JCDeen. */
 function rubberbandEnd() 
 {
    if ((rubberbandRectangle.width > 0) && (rubberbandRectangle.height > 0))
@@ -291,6 +290,7 @@ function MarkerDataToConsole()
 	
 }
 
+// JCDeen
 function RedrawAll()
 {
 	console.log(':: RedrawAll console.table(markers) :: markerCounter = ' + markerCounter);
@@ -329,6 +329,7 @@ function RedrawAll()
 	}
 }
 
+// JCDeen
 function RemoveMarker(markerIndex)
 {
     console.log("markerIndex = " + markerIndex);
