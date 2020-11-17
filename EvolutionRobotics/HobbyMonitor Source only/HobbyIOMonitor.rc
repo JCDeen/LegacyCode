@@ -1,0 +1,569 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\HobbyIOMonitor.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\HobbyIOMonitor.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 272, 169
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About ER1 Hobby Ports Monitor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,6,6,20,20
+    LTEXT           "ER1 Hobby Ports Monitor, Version 0.9a",IDC_STATIC,32,6,
+                    83,17,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002  by  James Christian Deen",
+                    IDC_STATIC,184,117,75,15
+    DEFPUSHBUTTON   "OK",IDOK,111,147,50,14,WS_GROUP
+    CONTROL         129,IDC_STATIC,"Static",SS_BITMAP,184,5,81,103
+    GROUPBOX        " License Agreement ",IDC_STATIC,5,34,172,99
+    EDITTEXT        IDC_EDIT_LICENSE,11,45,159,82,ES_MULTILINE | ES_READONLY | 
+                    ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "( You will be able to     turn this off in           version 1.0 ! )",
+                    IDC_STATIC,5,137,63,23
+END
+
+IDD_HOBBYIOMONITOR_DIALOG DIALOGEX 0, 0, 312, 363
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP | WS_EX_APPWINDOW
+CAPTION "ER1 Hobby Ports Monitor"
+MENU IDR_MENU1
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Digital Outputs",IDC_STATIC_A3,237,4,68,248,BS_LEFT
+    GROUPBOX        "Analog Inputs",IDC_STATIC_A,6,4,146,200,BS_LEFT
+    EDITTEXT        IDC_EDIT_A0,31,14,35,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_A1,31,30,35,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_A2,31,46,35,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_A3,31,62,35,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_A4,31,78,35,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_A5,31,94,35,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_A6,31,110,35,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_A7,31,126,35,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_A8,110,14,35,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_A9,110,30,35,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_A10,110,46,35,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_A11,110,62,35,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_A12,110,78,35,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_A13,110,94,35,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_A14,110,110,35,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_A15,110,126,35,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Volts",IDC_RADIO_ANALOG_DISPLAY_VOLTS,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,92,152,31,10
+    CONTROL         "Raw Counts",IDC_RADIO_ANALOG_DISPLAY_RAW,"Button",
+                    BS_AUTORADIOBUTTON | BS_MULTILINE,92,164,46,19
+    CONTROL         "Floating Value",IDC_RADIO3_FLOATING,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,15,151,58,10
+    CONTROL         "Stickey Lows",IDC_RADIO3_LOCAP,"Button",
+                    BS_AUTORADIOBUTTON,15,163,55,10
+    CONTROL         "Stickey Highs",IDC_RADIO3_HICAP,"Button",
+                    BS_AUTORADIOBUTTON,15,175,57,10
+    EDITTEXT        IDC_EDIT_DI0,184,30,40,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_DI1,184,46,40,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_DI2,184,62,40,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_DI3,184,78,40,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_DI4,184,94,40,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_DI5,184,110,40,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_DI6,184,126,40,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_DI7,184,142,40,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Enable Digital Scanning",
+                    IDC_CHECK_ENABLE_DIGITAL_SCANNING,"Button",
+                    BS_AUTOCHECKBOX | BS_TOP | BS_MULTILINE | WS_TABSTOP,164,
+                    229,59,17
+    CONTROL         "",IDC_RADIODO0HI,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    266,38,8,8
+    CONTROL         "",IDC_RADIODO0LO,"Button",BS_AUTORADIOBUTTON,289,38,8,8
+    CONTROL         "",IDC_RADIODO1HI,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    266,53,8,8
+    CONTROL         "",IDC_RADIODO1LO,"Button",BS_AUTORADIOBUTTON,289,53,8,8
+    CONTROL         "",IDC_RADIODO2HI,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    266,68,8,8
+    CONTROL         "",IDC_RADIODO2LO,"Button",BS_AUTORADIOBUTTON,289,68,8,8
+    CONTROL         "",IDC_RADIODO3HI,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    266,83,8,8
+    CONTROL         "",IDC_RADIODO3LO,"Button",BS_AUTORADIOBUTTON,289,83,8,8
+    CONTROL         "",IDC_RADIODO4HI,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    266,98,8,8
+    CONTROL         "",IDC_RADIODO4LO,"Button",BS_AUTORADIOBUTTON,289,98,8,8
+    CONTROL         "",IDC_RADIODO5HI,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    266,113,8,8
+    CONTROL         "",IDC_RADIODO5LO,"Button",BS_AUTORADIOBUTTON,289,113,8,
+                    8
+    CONTROL         "",IDC_RADIODO6HI,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    266,128,8,8
+    CONTROL         "",IDC_RADIODO6LO,"Button",BS_AUTORADIOBUTTON,289,128,8,
+                    8
+    CONTROL         "",IDC_RADIODO7HI,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    266,143,8,8
+    CONTROL         "",IDC_RADIODO7LO,"Button",BS_AUTORADIOBUTTON,289,143,8,
+                    8
+    PUSHBUTTON      "Output Digital",IDC_BUTTON_DIGITALOUTPUT,242,155,57,12
+    CONTROL         "Continuous",IDC_CHECK_CONTINUOUS_SCAN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,215,51,8
+    LTEXT           "Interval (mSec)",IDC_STATIC,70,215,48,8
+    EDITTEXT        IDC_EDIT_INTERVAL,119,213,26,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "Scan Once",IDC_BUTTON_SCAN,10,234,136,12
+    GROUPBOX        " Display Format ",IDC_STATIC,163,161,62,35
+    DEFPUSHBUTTON   "OK",IDOK,266,344,39,14
+    LTEXT           "A0",IDC_STATIC,12,16,15,8,NOT WS_GROUP
+    LTEXT           "A1",IDC_STATIC,12,32,15,8,NOT WS_GROUP
+    LTEXT           "A2",IDC_STATIC,12,48,15,8,NOT WS_GROUP
+    LTEXT           "A3",IDC_STATIC,12,64,15,8,NOT WS_GROUP
+    LTEXT           "A4",IDC_STATIC,12,80,15,8,NOT WS_GROUP
+    LTEXT           "A5",IDC_STATIC,12,96,15,8,NOT WS_GROUP
+    LTEXT           "A6",IDC_STATIC,12,112,15,8,NOT WS_GROUP
+    LTEXT           "A7",IDC_STATIC,11,128,15,8,NOT WS_GROUP
+    LTEXT           "A8",IDC_STATIC,90,16,15,8,NOT WS_GROUP
+    LTEXT           "A9",IDC_STATIC,90,32,15,8,NOT WS_GROUP
+    LTEXT           "A10",IDC_STATIC,90,48,15,8,NOT WS_GROUP
+    LTEXT           "A11",IDC_STATIC,90,64,15,8,NOT WS_GROUP
+    LTEXT           "A12",IDC_STATIC,90,80,15,8,NOT WS_GROUP
+    LTEXT           "A13",IDC_STATIC,90,96,15,8,NOT WS_GROUP
+    GROUPBOX        " Display Format ",IDC_STATIC,88,142,58,46,BS_CENTER
+    GROUPBOX        " Readings Mode ",IDC_STATIC,11,142,65,46
+    GROUPBOX        "Digital Inputs",IDC_STATIC_A2,158,4,72,248,BS_LEFT
+    LTEXT           "DI0",IDC_STATIC,164,33,15,8,NOT WS_GROUP
+    LTEXT           "DI1",IDC_STATIC,164,49,15,8,NOT WS_GROUP
+    LTEXT           "DI2",IDC_STATIC,164,65,15,8,NOT WS_GROUP
+    LTEXT           "DI3",IDC_STATIC,164,81,15,8,NOT WS_GROUP
+    LTEXT           "DI4",IDC_STATIC,164,97,15,8,NOT WS_GROUP
+    LTEXT           "DI5",IDC_STATIC,164,113,15,8,NOT WS_GROUP
+    LTEXT           "DI6",IDC_STATIC,164,129,15,8,NOT WS_GROUP
+    LTEXT           "DI7",IDC_STATIC,164,144,15,8,NOT WS_GROUP
+    LTEXT           "DO0",IDC_STATIC,242,38,15,8
+    LTEXT           "DO1",IDC_STATIC,242,53,15,8
+    LTEXT           "DO2",IDC_STATIC,242,67,15,8
+    LTEXT           "DO3",IDC_STATIC,242,83,15,8
+    LTEXT           "DO4",IDC_STATIC,242,97,15,8
+    LTEXT           "DO5",IDC_STATIC,242,113,15,8
+    LTEXT           "DO6",IDC_STATIC,242,128,15,8
+    LTEXT           "DO7",IDC_STATIC,242,143,15,8
+    LTEXT           "HI       LO",IDC_STATIC,267,28,32,8
+    GROUPBOX        "Scan Settings",IDC_STATIC,6,205,146,47
+    LTEXT           "Battery",IDC_STATIC,81,128,22,8,NOT WS_GROUP
+    LTEXT           "A14",IDC_STATIC,90,112,13,8,NOT WS_GROUP
+    GROUPBOX        "Socket Connection",IDC_STATIC,6,310,221,48
+    PUSHBUTTON      "Connect Robot",IDC_BUTTON_CONNECT,136,340,85,13,
+                    BS_MULTILINE
+    EDITTEXT        IDC_EDIT_CMD_AUDIT,11,267,135,34,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | 
+                    WS_VSCROLL
+    GROUPBOX        " Command Trail ",IDC_STATIC,6,257,146,49
+    EDITTEXT        IDC_EDIT_PORT,186,320,35,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Port Number:",IDC_STATIC,136,322,42,8
+    EDITTEXT        IDC_EDIT_DIGITAL_IN,163,14,61,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_DIGITAL_OUT,242,15,58,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Password:",IDC_STATIC,11,342,35,9,WS_DISABLED
+    EDITTEXT        IDC_EDIT_PASSWORD,47,340,74,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "0: 00000000",IDC_BUTTON_DIGITAL_OUTPUT_PRESET0,247,183,
+                    47,12,BS_NOTIFY
+    PUSHBUTTON      "1: 00001111",IDC_BUTTON_DIGITAL_OUTPUT_PRESET1,247,199,
+                    47,12
+    GROUPBOX        " DO Presets ",IDC_STATIC,242,171,58,77,BS_LEFT
+    CONTROL         "Enable Analog Scanning",IDC_CHECK1_ENABLE_ANALOG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,191,114,10
+    CONTROL         "Enable Digital Word Trigger",
+                    IDC_CHECK_ENABLE_DIG_WORD_TRIGGER,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,164,204,60,
+                    16
+    CONTROL         "Binary",IDC_RADIO_DISPLAY_BINARY,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,168,171,35,8
+    CONTROL         "Text",IDC_RADIO_DISPLAY_TEXT,"Button",
+                    BS_AUTORADIOBUTTON,168,183,30,8
+    GROUPBOX        " Command Entry",IDC_STATIC,158,257,148,49
+    LTEXT           "IP:",IDC_STATIC,11,322,10,8
+    PUSHBUTTON      "2: 11110000",IDC_BUTTON_DIGITAL_OUTPUT_PRESET2,247,215,
+                    47,12
+    PUSHBUTTON      "3: 11111111",IDC_BUTTON_DIGITAL_OUTPUT_PRESET3,247,231,
+                    47,12
+    EDITTEXT        IDC_EDIT_COMMANDENTRY,163,267,137,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Send",IDC_BUTTON_SENDCOMMAND,251,287,50,14
+    PUSHBUTTON      "Clear",IDC_BUTTON3,163,287,50,14
+    EDITTEXT        IDC_EDIT_IPADDRESS,23,320,98,12,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_CONFIGURE DIALOGEX 0, 0, 367, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Configuration Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Save",IDOK,310,144,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,6,144,50,14
+    CONTROL         "Auto connect at program start",IDC_CHECK_AUTOCONNECT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,186,124,106,10
+    CONTROL         "Add line numbers",IDC_CHECK_ADD_LINENUMBERS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,111,68,10
+    CONTROL         "Save to file on exit",IDC_CHECK3,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,99,111,72,10
+    GROUPBOX        "DO (Digital Output) Presets",IDC_STATIC,181,5,119,94
+    EDITTEXT        IDC_EDIT_DO0c,208,18,38,12,ES_AUTOHSCROLL
+    LTEXT           "DO 0:",IDC_STATIC,185,19,19,8
+    EDITTEXT        IDC_EDIT_DO1c,208,39,38,12,ES_AUTOHSCROLL
+    LTEXT           "DO 1:",IDC_STATIC,185,40,19,8
+    EDITTEXT        IDC_EDIT_DO2c,208,60,38,12,ES_AUTOHSCROLL
+    LTEXT           "DO 2:",IDC_STATIC,185,62,19,8
+    EDITTEXT        IDC_EDIT_DO3c,208,81,38,12,ES_AUTOHSCROLL
+    LTEXT           "DO 3:",IDC_STATIC,185,83,19,8
+    GROUPBOX        " Cmd Trail Settings ",IDC_STATIC,5,102,171,35
+    CONTROL         "Echo Application Debugging Statements",
+                    IDC_CHECK_ECHO_DEBUGSTATEMENTS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,124,145,10
+    GROUPBOX        " DI (Digital Input) Word Trigger ",IDC_STATIC,5,5,171,
+                    94
+    CONTROL         "Echo to Cmd Trail",IDC_CHECK_ECHO_TO_CMDTRAIL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,17,69,8
+    EDITTEXT        IDC_EDIT_NOTIFYMSG,11,67,160,26,ES_MULTILINE | 
+                    ES_AUTOHSCROLL
+    LTEXT           "Notification Message:",IDC_STATIC,11,56,69,8
+    EDITTEXT        IDC_EDIT_TRIGGER_VAL,91,24,38,12,ES_AUTOHSCROLL
+    CONTROL         "Message Box",IDC_CHECK_MSGBOX,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,30,56,8
+    CONTROL         "",IDC_RADIODO0HIc,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,328,46,8,8
+    CONTROL         "",IDC_RADIODO0LOc,"Button",BS_AUTORADIOBUTTON,346,46,8,
+                    8
+    CONTROL         "",IDC_RADIODO1HIc,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,328,57,8,8
+    CONTROL         "",IDC_RADIODO1LOc,"Button",BS_AUTORADIOBUTTON,346,57,8,
+                    8
+    CONTROL         "",IDC_RADIODO2HIc,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,328,68,8,8
+    CONTROL         "",IDC_RADIODO2LOc,"Button",BS_AUTORADIOBUTTON,346,68,8,
+                    8
+    CONTROL         "",IDC_RADIODO3HIc,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,328,79,8,8
+    CONTROL         "",IDC_RADIODO3LOc,"Button",BS_AUTORADIOBUTTON,346,79,8,
+                    8
+    CONTROL         "",IDC_RADIODO4HIc,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,328,90,8,8
+    CONTROL         "",IDC_RADIODO4LOc,"Button",BS_AUTORADIOBUTTON,346,90,8,
+                    8
+    CONTROL         "",IDC_RADIODO5HIc,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,328,101,8,8
+    CONTROL         "",IDC_RADIODO5LOc,"Button",BS_AUTORADIOBUTTON,346,101,8,
+                    8
+    CONTROL         "",IDC_RADIODO6HIc,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,328,112,8,8
+    CONTROL         "",IDC_RADIODO6LOc,"Button",BS_AUTORADIOBUTTON,346,112,8,
+                    8
+    CONTROL         "",IDC_RADIODO7HIc,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,328,123,8,8
+    CONTROL         "",IDC_RADIODO7LOc,"Button",BS_AUTORADIOBUTTON,346,123,8,
+                    8
+    LTEXT           "DO0",IDC_STATIC,310,46,15,8
+    LTEXT           "DO1",IDC_STATIC,310,57,15,8
+    LTEXT           "DO2",IDC_STATIC,310,68,15,8
+    LTEXT           "DO3",IDC_STATIC,310,79,15,8
+    LTEXT           "DO4",IDC_STATIC,310,90,15,8
+    LTEXT           "DO5",IDC_STATIC,310,101,15,8
+    LTEXT           "DO6",IDC_STATIC,310,112,15,8
+    LTEXT           "DO7",IDC_STATIC,310,123,15,8
+    LTEXT           "HI     LO",IDC_STATIC,329,33,28,8
+    PUSHBUTTON      "<< Copy",IDC_BUTTON_COPYDO0,251,17,41,13
+    PUSHBUTTON      "<< Copy",IDC_BUTTON_COPYDO1,251,39,41,13
+    PUSHBUTTON      "<< Copy",IDC_BUTTON_COPYDO2,251,60,41,13
+    PUSHBUTTON      "<< Copy",IDC_BUTTON_COPYDO3,251,81,41,13
+    CONTROL         "Trigger Repeatedly",IDC_CHECK_REPEAT_TRIGGER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,43,74,8
+    PUSHBUTTON      "<< Copy",IDC_BUTTON_COPY_TRIGGERVAL,135,24,32,13
+    GROUPBOX        " Trigger Value ",IDC_STATIC,87,13,85,29,0,WS_EX_RIGHT
+    GROUPBOX        " Misc ",IDC_STATIC,181,102,120,35
+    EDITTEXT        IDC_EDIT_DO_TOP_CONFIGURE,311,16,44,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    GROUPBOX        "Edit Digital ",IDC_STATIC,306,5,54,132
+    CONTROL         "Show About Box at startup",IDC_CHECK_SHOWABOUTBOX,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,186,112,102,8
+END
+
+IDD_DIALOG_ANALOG_PORTS DIALOG DISCARDABLE  0, 0, 247, 217
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Hobby Analog Ports"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,99,196,50,14
+    CONTROL         133,IDC_STATIC,"Static",SS_BITMAP,4,5,239,163
+    LTEXT           "Image is copied from Evolution Robotics'  ER1 Manual",
+                    IDC_STATIC,5,173,195,8
+END
+
+IDD_DIALOG_DIGITALPORTS DIALOG DISCARDABLE  0, 0, 307, 236
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hobby Digital Ports"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,215,50,14
+    CONTROL         134,IDC_STATIC,"Static",SS_BITMAP,4,5,299,183
+    LTEXT           "Image is copied from Evolution Robotics'  ER1 Manual",
+                    IDC_STATIC,5,191,195,8
+END
+
+IDD_DIALOG_CMD_MACRO_PANEL DIALOG DISCARDABLE  0, 10, 146, 166
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "HobbyIOMonitor MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "HobbyIOMonitor\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "HobbyIOMonitor.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "HobbyIOMonitor Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 162
+    END
+
+    IDD_HOBBYIOMONITOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 305
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 356
+    END
+
+    IDD_DIALOG_CONFIGURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DIALOG_ANALOG_PORTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_DIALOG_DIGITALPORTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+
+    IDD_DIALOG_CMD_MACRO_PANEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 139
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1_ER1         BITMAP  DISCARDABLE     "res\\Sal_001x256.bmp"
+IDB_BITMAP_ANALOGPORTS  BITMAP  DISCARDABLE     "res\\ER1 Analog IO Pins.bmp"
+IDB_BITMAP_DIGITALPORTS BITMAP  DISCARDABLE     "res\\ER1 Digital IO Pins.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Save As",                     IDM_SAVEAS
+    END
+    MENUITEM "Configure",                   IDD_MENU_CONFIGURE
+    POPUP "Help", HELP
+    BEGIN
+        MENUITEM "Help File",                   ID_HELP_HELPFILE
+        MENUITEM SEPARATOR
+        MENUITEM "Analog Ports Diagram",        ID_MENU_ANALOG_DLG
+        MENUITEM "Digital Ports Diagram",       ID_MENU_DIGITAL_PORTS_DLG
+        MENUITEM SEPARATOR
+        MENUITEM "About HobbyPorts Monitor",    ID_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About HobbyIOMonitor..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDD_MENU_CONFIGURE      "Configures various items and default values ..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_ABOUT                "Auithor & License Information"
+    ID_MENU_ANALOG_DLG      "Shows ER1 manual Analog Ports connections"
+    ID_MENU_DIGITAL_PORTS_DLG "Shows ER1 manual Digital Ports connections"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\HobbyIOMonitor.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
