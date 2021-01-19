@@ -42,4 +42,10 @@ Even though there are other files present under a given directory, the files men
 
      Read air fare field data files and generated scripts for use by air fare agents
      
+>> **Visual Studio Notes:** 
+
+     Visual Studio's default implementation of C++ ver 17 removed use of std::filesystem .
+     This code shows how to re-enable it. You may only need to look at the PNG file.
+     Software is minimal and should be straightforward for you to understand.
+     
     
