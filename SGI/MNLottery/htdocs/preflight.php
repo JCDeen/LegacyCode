@@ -2,7 +2,7 @@
 	/***
 	This script utilizes 2 different methods to ensure that only intended individuals can see the results.
 	1: It MUST be sent using https:// in the URL ( instead of http:// ) .
-	2: You MUST have the cookie named 'HotCookie' set to "Jessica Biel" for the domain this script is running on.
+	2: You MUST have the cookie named 'HotCookie' set to "ChocoChip" for the domain this script is running on.
 	   This was done manually on the developer's machine using Firebug in Firefox.
 	 */
 ?>
@@ -34,7 +34,7 @@ IF true then perform self_check for links, etc. ???
 	{
 		// Die if this cookie is not set in web browser.
 		// It can be done manually in Firefox using Firebug.
-		if (!isset($_COOKIE['HotCookie']) || $_COOKIE['HotCookie']!='Jessica Biel') {
+		if (!isset($_COOKIE['HotCookie']) || $_COOKIE['HotCookie']!='ChocoChip') {
 			die ("reported"); 
 		}
 		
